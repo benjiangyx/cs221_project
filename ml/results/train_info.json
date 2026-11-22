@@ -1,0 +1,57 @@
+{
+  "log_rate": {
+    "cv_mse": 0.3384865312317123,
+    "var_y": 0.4793753652721339,
+    "hp": {
+      "learning_rate": 0.03,
+      "max_iter": 500,
+      "max_leaf_nodes": 7,
+      "min_samples_leaf": 60
+    },
+    "n": 1318
+  },
+  "log_circ_rate": {
+    "cv_mse": 0.2450029050395975,
+    "var_y": 0.3358936104993478,
+    "hp": {
+      "learning_rate": 0.03,
+      "max_iter": 500,
+      "max_leaf_nodes": 7,
+      "min_samples_leaf": 60
+    },
+    "n": 1318
+  },
+  "dir_sin": {
+    "cv_mse": 0.5029844862846793,
+    "var_y": 0.44844783445645636,
+    "hp": {
+      "learning_rate": 0.1,
+      "max_iter": 150,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 80
+    },
+    "n": 633
+  },
+  "dir_cos": {
+    "cv_mse": 0.4729937029061177,
+    "var_y": 0.4526423689614594,
+    "hp": {
+      "learning_rate": 0.1,
+      "max_iter": 150,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 80
+    },
+    "n": 633
+  },
+  "log_lb": {
+    "cv_mse": 0.4093349263466301,
+    "var_y": 0.3991963904460139,
+    "hp": {
+      "learning_rate": 0.1,
+      "max_iter": 150,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 80
+    },
+    "n": 742
+  }
+}
